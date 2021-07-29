@@ -1,0 +1,20 @@
+server:
+  port: 1111
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: 
+    url: jdbc:h2:mem:testdb
+    username: sa
+    
+    jpa:
+    properties:
+    hinernate:
+    format_sql: true
+    show_sql: true
+    
+    
+     
+     http.headers().frameOptions().disable();
+    
+    
